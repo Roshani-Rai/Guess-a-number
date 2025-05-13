@@ -87,6 +87,7 @@ play=true;
 numGuess=0;
 rem.innerText=`Remmainng Guess: ${10}`;
 prev.innerText=`Previous Guess:`;
+displayMess(``);
 rand=generateNum();
 };
 butt.addEventListener("click", newGame);
